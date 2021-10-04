@@ -1,5 +1,5 @@
 variable client_secret {
-  default = "ncq7Q~rIg3R4i6~gOjN63D8vmIOv69wGGjK1l"
+  default = ""
 }
 
 provider "azurerm" {
@@ -20,5 +20,3 @@ provider "azurerm" {
   tenant_id       = "b41b72d0-4e9f-4c26-8a69-f949f367c91d"
   client_secret = var.client_secret
 }
-
-#client_secret = ncq7Q~rIg3R4i6~gOjN63D8vmIOv69wGGjK1l
