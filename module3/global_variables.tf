@@ -12,7 +12,6 @@ variable tenant_id {
 }
 
 variable client_secret {
-    default = "ncq7Q~rIg3R4i6~gOjN63D8vmIOv69wGGjK1l"
 }
 
 variable "env" {
