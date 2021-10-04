@@ -12,12 +12,11 @@ variable tenant_id {
 }
 
 variable client_secret {
-    default = "ncq7Q~rIg3R4i6~gOjN63D8vmIOv69wGGjK1l"
 }
 
 variable "env" {
     type = string
-    description = "Enter a list of names of environments' to be deployed. Use space as separator"
+    description = "Enter the name of environment to be deployed. It could be a list of names, use spacebar as separator"
 }
 
 /*

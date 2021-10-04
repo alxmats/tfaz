@@ -33,4 +33,4 @@ override.tf.json
 tf-creds.txt
 *.exe
 */.terraform/*
-module1/.terraform/providers/registry.terraform.io/hashicorp/azurerm/2.79.1/windows_amd64/*
+*.pdf
