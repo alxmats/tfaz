@@ -1,0 +1,1 @@
+Set-Alias -Name "tf" -Value "C:\tf\terraform.exe"
