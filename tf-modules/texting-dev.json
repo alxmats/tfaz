@@ -1,0 +1,19 @@
+{ 
+    "name": "texting-dev",
+    "backend_address_pool": {
+        "name": "web-views",
+        "ip_addresses": [ "172.20.56.10" ] 
+    }, 
+    "http_listener": {
+        "host_names": [ 
+            "*texting.zywave.com"
+        ]
+    },
+    "probe": {
+        "host": "172.20.56.10",
+        "path": "/"
+    },
+    "request_routing_rule": {
+        "priority": 500
+    }
+}
